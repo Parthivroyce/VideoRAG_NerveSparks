@@ -1,0 +1,52 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# OS / IDE specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Streamlit cache
+.streamlit/
+
+# Media / generated data
+extracted_audio/
+extracted_frames/
+uploads/
+chroma_db/
+
+# Environment & config
+.env
+.env.local
+vite-env.d.ts
+
+# Compiled model files or large binaries
+*.pt
+*.pth
+*.onnx
